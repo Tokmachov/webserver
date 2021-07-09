@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+@font-face {
+    font-family: DotGothic16; /* Font name */
+    src: url(DotGothic16-Regular.ttf); /* Path to the font file */
+   }
+h1 {
+    text-transform: uppercase;
+    font-family: DotGothic16;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    color: #17094b;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    padding-left: 1em;
+}
+
+
+.success {
+    background: linear-gradient(130deg, rgb(37, 33, 33) 0%, rgb(2, 122, 72) 100%);
+}
+
+p {
+	font-family: DotGothic16;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    line-height: 1.7em;
+    color: #020000;
+    padding-bottom: 5px;
+}
+
+ap {
+	font-family: DotGothic16;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    line-height: 1.7em;
+    color: #7460c4;
+    padding-bottom: 5px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    line-height: 1.5em;
+    color: #69bc3b;
+    padding-bottom: 5px;
+}
+
+a {
+	font-family: DotGothic16;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    line-height: 1.5em;
+    position: relative;
+    transition: 0.8s;
+	color: #259b16;
+    padding-bottom: 5px;
+}
+
+ap:hover {
+	background:  rgb(20, 225, 198);
+    transition: 2s;
+}
+
